@@ -112,7 +112,8 @@ def main():
         print("4. Dormir")
         print("5. Tomar banho")
         print("6. Conversar")
-        print("7. Sair")
+        print("7. Passar tempo")
+        print("8. Sair")
         escolha = input("Escolha uma ação: ")
 
         if escolha == "1":
@@ -127,10 +128,11 @@ def main():
             bichinho.tomar_banho()
         elif escolha == "6":
             bichinho.conversar()
+        elif escolha == "7":
+            bichinho.passar_tempo()
         elif escolha == "66":
             bichinho.matar()
-            
-        elif escolha == "7":
+        elif escolha == "8":
             print("Até mais!")
             break
         else:
